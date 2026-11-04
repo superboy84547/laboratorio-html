@@ -94,15 +94,10 @@ footer {
     color: #526174;
 }
 
-<meta charset="UTF-8">
-<title>Le tabelle</title>
-<style>
 table, th, td {border: 1px solid black;}
 caption {font-weight:bold; color:blue}
 th {background-color:yellow}
 td {text-align: center;}
-</style>
-</head>
 <body>
 <table style="width:50%" >
 <caption>TABELLA DI PROVA</caption>
