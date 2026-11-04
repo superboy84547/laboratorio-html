@@ -1,102 +1,86 @@
-
 <!DOCTYPE html>
 <html lang="it">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>La mia scheda personale</title>
-<link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La mia scheda personale</title>
+    <!-- Collegamento al foglio di stile esterno -->
+    <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
+    <!-- Intestazione della pagina -->
+    <header>
+        <h1>Mi presento!</h1>
+        <p>La mia prima pagina con HTML e CSS</p>
+    </header>
 
-<!-- Intestazione della pagina -->
-<header>
-<h1>Mi presento!</h1>
-<p>La mia prima pagina con HTML e CSS</p>
-</header>
+    <!-- Contenuto principale -->
+    <main>
+        <article class="scheda">
+            <h2>Aaron Indelicatop</h2>
+            <p class="descrizione">
+                Ciao! Sono Aaron, frequento un corso di informatica e sto imparando a creare pagine web.
+            </p>
+            
+            <!-- Esempio di UL (Unordered List - Lista non ordinata) -->
+            <h3>I miei hobby </h3>
+            <ul>
+                <li>Programmazione</li>
+                <li>Musica</li>
+                <li>Sport</li>
+            </ul>
 
-<!-- Contenuto principale -->
-<main>
-<article class="scheda">
+            <!-- Esempio di OL (Ordered List - Lista ordinata) -->
+            <h3>I miei prossimi obiettivi</h3>
+            <ol>
+                <li>Imparare la sintassi di base di HTML e CSS</li>
+                <li>Creare un layout responsivo per dispositivi mobili</li>
+                <li>Pubblicare il sito web online</li>
+            </ol>
 
-<h2>Aaron Indelicato</h2>
+            <!-- Esempio di DL (Description List - Lista di definizioni) -->
+            <h3>Glossario dei linguaggi </h3>
+            <dl>
+                <dt><strong>HTML</strong></dt>
+                <dd>Linguaggio di markup utilizzato per definire la struttura delle pagine web.</dd>
+                
+                <dt><strong>CSS</strong></dt>
+                <dd>Linguaggio di stile usato per definire la grafica e la spaziatura degli elementi HTML.</dd>
+            </dl>
 
-<p class="descrizione">
-Ciao! Sono Aaron, frequento un corso di informatica
-e sto imparando a creare pagine web.
-</p>
+            <!-- Tabella aggiunta dall'immagine -->
+            <table>
+                <caption>TABELLA DI PROVA</caption>
+                <tr>
+                    <th>città</th>
+                    <th>temperatura</th>
+                    <th>umidità</th>
+                </tr>
+                <tr>
+                    <td>Bolzano</td>
+                    <td>-1 °C</td>
+                    <td>35%</td>
+                </tr>
+                <tr>
+                    <td>Palermo</td>
+                    <td>22 °C</td>
+                    <td>67%</td>
+                </tr>
+            </table>
 
-<!-- LISTA UL -->
-<h3>I miei interessi</h3>
-<ul>
-<li>Programmazione</li>
-<li>Musica</li>
-<li>Sport</li>
-<li>Videogiochi</li>
-<li>Tecnologia</li>
-</ul>
+            <p>
+                Il mio obiettivo principale è <strong>creare il mio primo sito web</strong>.
+            </p>
 
-<!-- LISTA OL -->
-<h3>Le mie materie preferite</h3>
-<ol>
-<li>Informatica</li>
-<li>Matematica</li>
-<li>Inglese</li>
-<li>Italiano</li>
-<li>Storia</li>
-</ol>
+            <a class="pulsante" href="mailto:marco@example.com">
+                Scrivimi
+            </a>
+        </article>
+    </main>
 
-<!-- LISTA DL -->
-<h3>Alcuni linguaggi informatici</h3>
-<dl>
-<dt>HTML</dt>
-<dd>Serve per creare la struttura delle pagine web.</dd>
-
-<dt>CSS</dt>
-<dd>Serve per dare colori e stile alle pagine web.</dd>
-
-<dt>JavaScript</dt>
-<dd>Serve per rendere interattive le pagine web.</dd>
-
-<dt>Python</dt>
-<dd>È un linguaggio di programmazione utilizzato in diversi ambiti.</dd>
-</dl>
-
-<p>
-Il mio obiettivo è
-<strong>creare il mio primo sito web</strong>.
-</p>
-
-<a class="pulsante" href="mailto:marco@example.com">
-Scrivimi
-</a>
-   <table>
-    <caption>TABELLA DI PROVA</caption>
-    <tr>
-      <th>città</th>
-      <th>temperatura</th>
-      <th>umidità</th>
-    </tr>
-    <tr>
-      <td><Marsala></td>
-      <td>-1 C</td>
-      <td>35%</td>
-    </tr>
-    <tr>
-      <td>Palermo</td>
-      <td>22 C</td>
-      <td>67%</td>
-    </tr>
-  </table>
-</article>
-
-</main>
-
-<!-- Piè di pagina -->
-<footer>
-<p>Esercitazione di laboratorio — HTML e CSS</p>
-</footer>
-
+    <!-- Piè di pagina -->
+    <footer>
+        <p>Esercitazione di laboratorio — HTML e CSS</p>
+    </footer>
 </body>
 </html>
