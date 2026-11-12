@@ -62,25 +62,26 @@ main {
     border-radius: 12px;
 }
 
+/* Foto personale */
+.foto {
+    display: block;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin: 0 auto 15px;
+}
+
 /* Nome della persona */
 .scheda h2 {
     margin-top: 0;
     color: #244a73;
+    text-align: center;
 }
 
 /* Paragrafo introduttivo */
 .descrizione {
     color: #526174;
-}
-
-/* Foto personale */
-.foto {
-    display: block;
-    width: 200px;
-    height: 200px;
-    object-fit: cover;
-    border-radius: 50%;
-    margin: 20px auto;
 }
 
 /* Elenco degli interessi */
