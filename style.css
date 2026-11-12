@@ -63,13 +63,15 @@ main {
 }
 
 /* Foto personale */
-.foto {
+.scheda img.foto {
     display: block;
-    width: 100px;
-    height: 100px;
-    object-fit: cover;
+    width: 80px;
+    height: 80px;
+    max-width: 100%;
+    object-fit: contain;
     border-radius: 50%;
     margin: 0 auto 15px;
+    transform: rotate(0deg);
 }
 
 /* Nome della persona */
