@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="it">
 <head>
@@ -14,41 +15,49 @@
         <p>La mia prima pagina con HTML e CSS</p>
     </header>
 
+    <!-- Menu di navigazione aggiunto -->
+    <nav>
+        <a href="#hobby">I miei hobby</a>
+        <a href="#obiettivi">I miei obiettivi</a>
+        <a href="#glossario">Glossario</a>
+    </nav>
+
     <!-- Contenuto principale -->
     <main>
         <article class="scheda">
             <h2>Aaron Indelicato</h2>
+
             <p class="descrizione">
                 Ciao! Sono Aaron, frequento un corso di informatica e sto imparando a creare pagine web.
             </p>
-            
-            <!-- Esempio di UL (Unordered List - Lista non ordinata) -->
-            <h3>I miei hobby </h3>
+
+            <!-- Lista non ordinata -->
+            <h3 id="hobby">I miei hobby</h3>
             <ul>
                 <li>Programmazione</li>
                 <li>Musica</li>
                 <li>Sport</li>
             </ul>
 
-            <!-- Esempio di OL (Ordered List - Lista ordinata) -->
-            <h3>I miei prossimi obiettivi</h3>
+            <!-- Lista ordinata -->
+            <h3 id="obiettivi">I miei prossimi obiettivi</h3>
             <ol>
                 <li>Imparare la sintassi di base di HTML e CSS</li>
                 <li>Creare un layout responsivo per dispositivi mobili</li>
                 <li>Pubblicare il sito web online</li>
             </ol>
 
-            <!-- Esempio di DL (Description List - Lista di definizioni) -->
-            <h3>Glossario dei linguaggi </h3>
+            <!-- Lista di definizioni -->
+            <h3 id="glossario">Glossario dei linguaggi</h3>
             <dl>
                 <dt><strong>HTML</strong></dt>
                 <dd>Linguaggio di markup utilizzato per definire la struttura delle pagine web.</dd>
-                
+
                 <dt><strong>CSS</strong></dt>
                 <dd>Linguaggio di stile usato per definire la grafica e la spaziatura degli elementi HTML.</dd>
             </dl>
 
-            <!-- Tabella aggiunta dall'immagine -->
+            <!-- Tabella -->
             <table>
                 <caption>TABELLA DI PROVA</caption>
                 <tr>
@@ -69,7 +78,8 @@
             </table>
 
             <p>
-                Il mio obiettivo principale è <strong>creare il mio primo sito web</strong>.
+                Il mio obiettivo principale è
+                <strong>creare il mio primo sito web</strong>.
             </p>
 
             <a class="pulsante" href="mailto:marco@example.com">
